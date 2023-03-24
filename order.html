@@ -25,26 +25,34 @@
         <td> $1,750.00</td>
     </tr>
 </table>
-Order Form
+<h2>Order Form</h2>
+<form>
+    <label for="name">Your name:</label> 
+    <input type="text" name="name"><br>
+    <label for="recipient">Who are we sending this to?:</label>
+    <input type="text" name="recipient"><br>
+    <select name = "melon">
+        <option value ="watermelon">Watermelon</option>
+        <option value ="canteloupe">Canteloupe</option>
+        <option value ="honeydew">Honeydew</option>
+    </select> 
 
-Your name
 
-Who are we sending this to?
+<label for = "When should we deliver?" >When should we deliver?s</label>
+<input type = "radio" name = "Morning" value = "am"> 
+<input type = "radio" name = "Evening" value = "pm" >
+<input type = "radio" name = "Any time" value = "any" >
 
-Choose a melon
-Watermelon
-Canteloupe
-Honeydew
 
-When should we deliver?
-Morning
-Evening
-Any time
+<label for = "enter your message"Enter Your Message></label>
+<textarea name= "message" ></textarea>
 
-Enter your message:
+<label for ="Subscribe to our newsletter"Subscribe To Our Newsletter></label>
+    <input type = "checkbox" name = "subscribe" value="yes">
 
-Subscribe to our newsletter
-Yes
+    <input type = "submit">
+
+</form>
 
 
 
